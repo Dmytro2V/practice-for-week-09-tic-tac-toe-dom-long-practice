@@ -12,6 +12,25 @@
 <body>
   <!-- HTML structure for the UI: -->
   <!-- Your code here -->
+  <div id="game-container">
+    <h1 id="game-header" class="hidden">Winner: X/0</h1>
+    <div id="board-container">
+      <div class="cell hoverable" data-cellRow = "0" data-cellCol="0"></div>
+      <div class="cell hoverable" data-cellRow = "0" data-cellCol="1"></div>
+      <div class="cell hoverable" data-cellRow = "0" data-cellCol="2"></div>
+      <div class="cell hoverable" data-cellRow = "1" data-cellCol="0"></div>
+      <div class="cell hoverable" data-cellRow = "1" data-cellCol="1"></div>
+      <div class="cell hoverable" data-cellRow = "1" data-cellCol="2"></div>
+      <div class="cell hoverable" data-cellRow = "2" data-cellCol="0"></div>
+      <div class="cell hoverable" data-cellRow = "2" data-cellCol="1"></div>
+      <div class="cell hoverable" data-cellRow = "2" data-cellCol="2"></div>
+    </div>
+    <div id="bottom-container">
+      <button id="new-game" disabled>New Game</button>
+      <button id="give-up">Give Up</button>
+    </div>
+  </div>
+
 </body>
 
 </html>

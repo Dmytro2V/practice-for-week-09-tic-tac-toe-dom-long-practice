@@ -1,1 +1,48 @@
 /* Your code here */
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+   color: black;
+}
+#board-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    width: 306px;
+    background-color: black;
+    gap: 3px;
+}
+#bottom-container {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 306px;
+}
+div.cell {
+  
+  width: 100px;
+  height: 100px;
+  
+  
+  line-height: 100px;
+    background-color: antiquewhite;
+}
+button {
+    padding: 5px;
+    margin: 20px;
+}
+img {
+    width:90px;
+    height:90px;
+    margin:5px;
+}
+.hidden {
+    visibility: hidden;
+}
+.hoverable {
+    cursor: pointer;
+}
